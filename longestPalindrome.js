@@ -1,5 +1,9 @@
 console.log("looking for the longest palindrome...");
 
+/**
+ * Varifies if a string is a palindrome.
+ * @param {string} givenString - String to be tested.
+ */
 function findPalindrome(givenString){
     let maxPalindromeLength = givenString.length;
     let chars = {};

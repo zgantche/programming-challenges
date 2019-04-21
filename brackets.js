@@ -1,5 +1,9 @@
 console.log("checking brackets...\n");
 
+/**
+ * Varifies the balance and order of left and right brackets.
+ * @param {string} str - String containing the brackets.
+ */
 function bracketValidator(str){
     let strArray = str.split("");
     let openBracketsCache = [];

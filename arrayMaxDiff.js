@@ -1,6 +1,10 @@
 console.log("checking max difference in array...\n");
 
-
+/**
+ * Finds the two numbers furthest apart in an array, such that the first number is less than the second
+ * Ex. given array a, find maxDiff_i = i2 - i1, such that a[i1] < a[i2]
+ * @param {string} arr - Array to be processed.
+ */
 function maxDiff(arr){
     let result = {
         maxIndexDiff: 0,

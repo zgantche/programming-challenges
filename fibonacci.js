@@ -2,6 +2,10 @@ console.log("constructing fibonacci sequence...");
 
 let arr = [1];
 
+/**
+ * Generates the Nth number in the fibonacci sequence
+ * @param {Integer} n - Required spot in fibonacci sequence.
+ */
 function getNthFibonacci(n){
     if (n < 2)
         return n;

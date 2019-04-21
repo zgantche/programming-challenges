@@ -1,5 +1,12 @@
 console.log("looking for longest word...");
 
+/**
+ * Finds the longest word from a dictionary. Longest word must be spelled itaratively
+ * letter by letter from words within the dictionary.
+ * Ex. If "cats" is the longest word, the following words must exist within the
+ * dictionary: "c", "ca", "cat", and "cats"
+ * @param {string} dictionary - Hashmap of the passed dictionary.
+ */
 function longestWord(dictionary){
 
     let spelledWords = {};
