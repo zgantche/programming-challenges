@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Header from './components/Header';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Simple React App to organize coding problems. <code>Code is below:</code>
           </p>
           <a
             className="App-link"
