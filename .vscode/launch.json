@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Attach by Process ID",
+            "name": "Sample - Attach by Process ID",
             "processId": "${command:PickProcess}",
             "request": "attach",
             "skipFiles": [
@@ -13,15 +13,14 @@
             ],
             "type": "pwa-node"
         },
-
         {
-            "type": "pwa-node",
+            "name": "Launch Single JS File",
+            "program": "src/problems/brackets.js",
             "request": "launch",
-            "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/src/problems/arrayMaxDiff.js"
-        }
+            "type": "pwa-node"
+        },
     ]
 }
